@@ -53,55 +53,25 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
-}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="2hpS03mrwtEwaUB99HC63LCVyIJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.testConn.executor": "Run",
-    "HTTP Request.generated-requests | #2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.testConn">
-    <configuration name="testConn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="model.testConn" />
-      <module name="Trackify" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="Tomcat 8.5.100" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.100" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="Trackify:war exploded">
@@ -123,18 +93,11 @@
         </option>
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.testConn" />
-        <item itemvalue="HTTP Request.generated-requests | #2" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+        <option value="jdk-18.0.2-corretto-18.0.2-4caba194b151-68fdadd5" />
       </set>
     </attachedChunks>
   </component>
@@ -146,52 +109,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718289298589</updated>
-      <workItem from="1718300791603" duration="5317000" />
-      <workItem from="1718355339086" duration="4179000" />
     </task>
-    <task id="LOCAL-00001" summary="aggiunta classi java per connessione a db e gestione della collection che teoricamente dovrebbero funzionare, ma domani mattina con calma facciamo una bozza di front e testiamo, poi si tratta solo di aggiustare estetica e decidere che tipo di query fare  :)">
-      <option name="closed" value="true" />
-      <created>1718312210646</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1718312210646</updated>
-    </task>
-    <task id="LOCAL-00002" summary="aggiunta classi java per connessione a db e gestione della collection che teoricamente dovrebbero funzionare, ma domani mattina con calma facciamo una bozza di front e testiamo, poi si tratta solo di aggiustare estetica e decidere che tipo di query fare  :)">
-      <option name="closed" value="true" />
-      <created>1718312274903</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1718312274903</updated>
-    </task>
-    <task id="LOCAL-00003" summary="aggiunta classi java per connessione a db e gestione della collection che teoricamente dovrebbero funzionare, ma domani mattina con calma facciamo una bozza di front e testiamo, poi si tratta solo di aggiustare estetica e decidere che tipo di query fare  :)">
-      <option name="closed" value="true" />
-      <created>1718312290205</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1718312290205</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="aggiunta classi java per connessione a db e gestione della collection che teoricamente dovrebbero funzionare, ma domani mattina con calma facciamo una bozza di front e testiamo, poi si tratta solo di aggiustare estetica e decidere che tipo di query fare  :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="aggiunta classi java per connessione a db e gestione della collection che teoricamente dovrebbero funzionare, ma domani mattina con calma facciamo una bozza di front e testiamo, poi si tratta solo di aggiustare estetica e decidere che tipo di query fare  :)" />
   </component>
 </project>
