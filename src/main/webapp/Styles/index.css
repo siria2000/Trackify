@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'Gotham-Book';
+    src: url('../fonts/GothamBook.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-Light';
+    src: url('../fonts/GothamLight.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: #000;
 }
@@ -27,7 +41,8 @@ body {
     display: block;
     padding: 30px 20px;
     background-color: #121212;
-
+    text-decoration: none; /* Rimuove la sottolineatura */
+    color: inherit; /* Mantiene il colore del testo circostante */
     overflow: hidden;
 
     position: relative;
@@ -45,7 +60,7 @@ body {
 .ag-courses-item_title {
     min-height: 87px;
     margin: 0 0 25px;
-
+    font-family: 'Gotham-Light', sans-serif;
     overflow: hidden;
 
     font-weight: bold;
@@ -63,9 +78,8 @@ body {
     position: relative;
 }
 .ag-courses-item_date {
-    font-weight: bold;
     color: #f9b234;
-
+    font-family: 'Gotham-Light', sans-serif;
     -webkit-transition: color .5s ease;
     -o-transition: color .5s ease;
     transition: color .5s ease
@@ -195,14 +209,28 @@ body {
 }
 
 .ag-format-container {
-    padding-top: 100px;
+    padding-top: 30px;
     width: 1142px;
     margin: 0px auto;
 }
 
-.logo
-{
-    position: absolute;
-    top: 40px;
-    left: 40px;
+.logoContainer {
+    display: flex;
+    justify-content: center; /* Centra l'immagine orizzontalmente */
+    width: 100%; /* Assicura che il contenitore prenda tutta la larghezza disponibile */
+}
+
+.container img {
+    max-width: 100%; /* Assicura che l'immagine non superi la larghezza del contenitore */
+    height: auto; /* Mantiene le proporzioni dell'immagine */
+}
+
+.ag-courses-item-presentation {
+    display: flex; /* Imposta il contenitore come un elemento flessibile */
+    justify-content: center; /* Centra il contenuto orizzontalmente */
+    align-items: center; /* Centra il contenuto verticalmente */
+    font-family: 'Gotham-Light', sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+    width: 100%;
 }
