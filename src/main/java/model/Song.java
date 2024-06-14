@@ -10,11 +10,12 @@ public class Song {
     private double energy;
     private double instrumentalness;
     private double liveness;
-    private int streams;
+    private double speechiness;
+    private long streams;
     private String trackName;
     private double valence;
 
-    // Getters and Setters
+    // Getters e Setters
 
     public ObjectId getId() {
         return id;
@@ -72,11 +73,19 @@ public class Song {
         this.liveness = liveness;
     }
 
-    public int getStreams() {
+    public double getSpeechiness() {
+        return speechiness;
+    }
+
+    public void setSpeechiness(double speechiness) {
+        this.speechiness = speechiness;
+    }
+
+    public long getStreams() {
         return streams;
     }
 
-    public void setStreams(int streams) {
+    public void setStreams(long streams) {
         this.streams = streams;
     }
 
