@@ -2,139 +2,159 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>JSP - Hello World</title>
+  <title>Trackify - Home page</title>
   <link rel="stylesheet" type="text/css" href="Styles/index.css">
 </head>
 <body>
-<img class="logo" src="image/logoBOYZ2.png" style="width: 100px">
-<div class="searchBox">
-
-  <input class="searchInput"type="text" name="" placeholder="Search">
-  <button class="searchButton" href="#">
-    <i class="material-icons">
-      search
-    </i>
-  </button>
+<div class="logoContainer">
+  <img class="logo" src="image/logo1.png" style="width: 500px">
 </div>
 <div class="ag-format-container">
+  <div class="ag-courses-item-presentation">
+    <p>Trackify offre classifiche dettagliate basate su parametri tecnici di Spotify per esplorare e scoprire nuove tendenze musicali.</p>
+  </div>
+  <!-- Streams -->
   <div class="ag-courses_box">
     <div class="ag-courses_item">
       <a href="#" class="ag-courses-item_link">
         <div class="ag-courses-item_bg"></div>
 
         <div class="ag-courses-item_title">
-          UI/Web&amp;Graph design for teenagers 11-17&#160;years old
+          Successi in ascolto
         </div>
-
         <div class="ag-courses-item_date-box">
-          Start:
           <span class="ag-courses-item_date">
-            04.11.2022
+            Scopri la classifica
           </span>
         </div>
       </a>
     </div>
 
+    <!-- Valence -->
     <div class="ag-courses_item">
       <a href="#" class="ag-courses-item_link">
         <div class="ag-courses-item_bg"></div>
 
         <div class="ag-courses-item_title">
-          UX/UI Web-Design&#160;+ Mobile Design
+          Momenti di gioia
         </div>
-
         <div class="ag-courses-item_date-box">
-          Start:
           <span class="ag-courses-item_date">
-            04.11.2022
+            Scopri la classifica
           </span>
         </div>
       </a>
     </div>
 
+    <!-- Acousticness -->
     <div class="ag-courses_item">
       <a href="#" class="ag-courses-item_link">
         <div class="ag-courses-item_bg"></div>
 
         <div class="ag-courses-item_title">
-          Annual package "Product+UX/UI+Graph designer&#160;2022"
+          Acustiche e intime
         </div>
-
         <div class="ag-courses-item_date-box">
-          Start:
           <span class="ag-courses-item_date">
-            04.11.2022
+            Scopri la classifica
           </span>
         </div>
       </a>
     </div>
 
+    <!-- danceability -->
     <div class="ag-courses_item">
       <a href="#" class="ag-courses-item_link">
         <div class="ag-courses-item_bg"></div>
 
         <div class="ag-courses-item_title">
-          Graphic Design
+          Ritmo e movimento
         </div>
-
         <div class="ag-courses-item_date-box">
-          Start:
           <span class="ag-courses-item_date">
-            04.11.2022
+            Scopri la classifica
           </span>
         </div>
       </a>
     </div>
 
+    <!-- Energy -->
     <div class="ag-courses_item">
       <a href="#" class="ag-courses-item_link">
         <div class="ag-courses-item_bg"></div>
 
         <div class="ag-courses-item_title">
-          Motion Design
+          Energia in piena fase
         </div>
-
         <div class="ag-courses-item_date-box">
-          Start:
           <span class="ag-courses-item_date">
-            30.11.2022
+            Scopri la classifica
           </span>
         </div>
       </a>
     </div>
 
+    <!-- Instrumentalness -->
     <div class="ag-courses_item">
       <a href="#" class="ag-courses-item_link">
         <div class="ag-courses-item_bg"></div>
 
         <div class="ag-courses-item_title">
-          Front-end development&#160;+ jQuery&#160;+ CMS
+          Viaggi strumentali
+        </div>
+        <div class="ag-courses-item_date-box">
+          <span class="ag-courses-item_date">
+            Scopri la classifica
+          </span>
         </div>
       </a>
     </div>
 
+    <!-- Liveness -->
     <div class="ag-courses_item">
       <a href="#" class="ag-courses-item_link">
         <div class="ag-courses-item_bg">
         </div>
         <div class="ag-courses-item_title">
-          Digital Marketing
+          Canzoni da palco
+        </div>
+        <div class="ag-courses-item_date-box">
+          <span class="ag-courses-item_date">
+            Scopri la classifica
+          </span>
         </div>
       </a>
     </div>
 
+    <!-- Speechiness -->
     <div class="ag-courses_item">
       <a href="#" class="ag-courses-item_link">
         <div class="ag-courses-item_bg"></div>
 
         <div class="ag-courses-item_title">
-          Interior Design
+          Poesie sonore
         </div>
 
         <div class="ag-courses-item_date-box">
-          Start:
           <span class="ag-courses-item_date">
-            31.10.2022
+            Scopri la classifica
+          </span>
+        </div>
+      </a>
+    </div>
+
+    <!-- Ricerca personale -->
+    <div class="ag-courses_item">
+      <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+
+        <div class="ag-courses-item_title">
+          Esplora brani
+        </div>
+
+        <div class="ag-courses-item_date-box">
+          <span class="ag-courses-item_date">
+            Scopri la classifica
           </span>
         </div>
       </a>
