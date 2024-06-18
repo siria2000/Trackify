@@ -9,9 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf2accf3-a7c3-437a-bafb-f25ad2e17c70" name="Changes" comment="">
+    <list default="true" id="bf2accf3-a7c3-437a-bafb-f25ad2e17c70" name="Changes" comment="Aggiunta UI">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Styles/insertData.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Styles/table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Styles/update.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/d20be1654213d8b75b3d48edcfa97066.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/insertData.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/table.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/update.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/SongResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,15 +30,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Jsp File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="albertpiz25 &lt;albertopizzulo@gmail.com&gt;" />
-      </list>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -43,7 +48,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/siria2000/Trackify.git&quot;,
-    &quot;accountId&quot;: &quot;926d637a-0998-4b5e-86bd-2e3d25c6a0f4&quot;
+    &quot;accountId&quot;: &quot;bcfb68a1-a2fa-4428-98cf-8e200bfed633&quot;
   }
 }</component>
   <component name="LogFilters">
@@ -52,6 +57,13 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -69,45 +81,36 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.testConn.executor": "Run",
+    "HTTP Request.generated-requests | #2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Tomcat Server.Tomcat 8.5.100.executor": "Run",
+    "Tomcat Server.insertData.jsp.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/alber/Desktop/LiberaMenteIS",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/logo" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/image" />
+      <recent name="C:\Users\smung\IdeaProjects\Trackify\src\main\webapp\fonts" />
+      <recent name="C:\Users\smung\IdeaProjects\Trackify\src\main\webapp\image" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.testConn">
-    <configuration name="testConn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="model.testConn" />
-      <module name="Trackify" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.100">
     <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="Tomcat 8.5.100" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.24" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Tomcat 8.5.100" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.100" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <deployment>
         <artifact name="Trackify:war exploded">
@@ -117,7 +120,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="d82081e3-9d3c-45e4-b22f-b3b55598868d" />
+        <option name="BASE_DIRECTORY_NAME" value="8088913e-6313-4062-988b-6c4793704110" />
         <option name="HTTP_PORT" value="8082" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
@@ -126,7 +129,95 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="65267" />
+        <option name="DEBUG_PORT" value="61998" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Trackify:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="insertData.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.100" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8082/insertData.jsp" />
+      <deployment>
+        <artifact name="Trackify:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Trackify_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="8ee4bc68-dca6-41cd-89ff-3135ba300512" />
+        <option name="HTTP_PORT" value="8082" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51076" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -196,13 +287,13 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.testConn" />
       <item itemvalue="HTTP Request.generated-requests | #2" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.100" />
+      <item itemvalue="Tomcat Server.insertData.jsp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.testConn" />
+        <item itemvalue="Tomcat Server.insertData.jsp" />
         <item itemvalue="HTTP Request.generated-requests | #2" />
       </list>
     </recent_temporary>
@@ -210,7 +301,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-18.0.2-corretto-18.0.2-4caba194b151-68fdadd5" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
       </set>
     </attachedChunks>
   </component>
@@ -222,21 +314,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718289298589</updated>
+      <workItem from="1718300791603" duration="4165000" />
+      <workItem from="1718642142923" duration="16450000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
