@@ -80,17 +80,17 @@
             <thead>
             <tr>
                 <th>Select</th>
-                <th>_id</th>
-                <th>track_name</th>
-                <th>artist_name</th>
-                <th>streams</th>
-                <th>acousticness</th>
-                <th>danceability</th>
-                <th>energy</th>
-                <th>instrumentalness</th>
-                <th>liveness</th>
-                <th>speechiness</th>
-                <th>valence</th>
+                <th>Id</th>
+                <th>Track_Name</th>
+                <th>Artist_Name</th>
+                <th>Streams</th>
+                <th>Acousticness</th>
+                <th>Danceability</th>
+                <th>Energy</th>
+                <th>Instrumentalness</th>
+                <th>Liveness</th>
+                <th>Speechiness</th>
+                <th>Valence</th>
                 <th>Actions</th>
             </tr>
             </thead>

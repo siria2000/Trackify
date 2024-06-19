@@ -9,17 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf2accf3-a7c3-437a-bafb-f25ad2e17c70" name="Changes" comment="Aggiunta UI">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Styles/insertData.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Styles/table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Styles/update.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/d20be1654213d8b75b3d48edcfa97066.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/insertData.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/table.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/update.jsp" afterDir="false" />
+    <list default="true" id="bf2accf3-a7c3-437a-bafb-f25ad2e17c70" name="Changes" comment="jsp update, jsp insert data, jsp table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Styles/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Styles/table.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/insertData.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/insertData.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/table.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/table.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/update.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +32,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -79,25 +81,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "HTTP Request.generated-requests | #2.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Tomcat Server.Tomcat 8.5.100.executor": "Run",
-    "Tomcat Server.insertData.jsp.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.generated-requests | #2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 8.5.100.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.insertData.jsp.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp" />
@@ -315,11 +317,25 @@
       <option name="presentableId" value="Default" />
       <updated>1718289298589</updated>
       <workItem from="1718300791603" duration="4165000" />
-      <workItem from="1718642142923" duration="16450000" />
+      <workItem from="1718642142923" duration="18484000" />
+      <workItem from="1718798362821" duration="2068000" />
     </task>
+    <task id="LOCAL-00001" summary="jsp update, jsp insert data, jsp table">
+      <option name="closed" value="true" />
+      <created>1718742011984</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718742011984</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="jsp update, jsp insert data, jsp table" />
+    <option name="LAST_COMMIT_MESSAGE" value="jsp update, jsp insert data, jsp table" />
   </component>
 </project>

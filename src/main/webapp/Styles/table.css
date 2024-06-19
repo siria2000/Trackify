@@ -4,7 +4,7 @@ body {
     color: #ffffff;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../image/d20be1654213d8b75b3d48edcfa97066.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../image/d20be1654213d8b75b3d48edcfa97066.png');
     background-size: cover;
 }
 
@@ -14,7 +14,8 @@ body {
     border: 1px solid #444;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    background: linear-gradient(to top, rgba(0, 63, 145, 0.8), rgba(76, 42, 133, 0.8)); /* Sfondo con trasparenza */
+   /* background: linear-gradient(to top, rgba(0, 63, 145, 0.8), rgba(76, 42, 133, 0.8)); /* Sfondo con trasparenza */
+    background-color: rgba(238, 238, 238, 0.2);
 }
 
 .table-title h2 {

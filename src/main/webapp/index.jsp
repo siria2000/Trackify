@@ -32,7 +32,7 @@
 
     <!-- Valence -->
     <div class="ag-courses_item">
-      <a href="#" class="ag-courses-item_link">
+      <a href="table.jsp" class="ag-courses-item_link">
         <div class="ag-courses-item_bg"></div>
 
         <div class="ag-courses-item_title">
@@ -48,7 +48,7 @@
 
     <!-- Acousticness -->
     <div class="ag-courses_item">
-      <a href="#" class="ag-courses-item_link">
+      <a href="table.jsp" class="ag-courses-item_link">
         <div class="ag-courses-item_bg"></div>
 
         <div class="ag-courses-item_title">
@@ -64,7 +64,7 @@
 
     <!-- danceability -->
     <div class="ag-courses_item">
-      <a href="#" class="ag-courses-item_link">
+      <a href="table.jsp" class="ag-courses-item_link">
         <div class="ag-courses-item_bg"></div>
 
         <div class="ag-courses-item_title">
@@ -80,7 +80,7 @@
 
     <!-- Energy -->
     <div class="ag-courses_item">
-      <a href="#" class="ag-courses-item_link">
+      <a href="table.jsp" class="ag-courses-item_link">
         <div class="ag-courses-item_bg"></div>
 
         <div class="ag-courses-item_title">
@@ -96,7 +96,7 @@
 
     <!-- Instrumentalness -->
     <div class="ag-courses_item">
-      <a href="#" class="ag-courses-item_link">
+      <a href="table.jsp" class="ag-courses-item_link">
         <div class="ag-courses-item_bg"></div>
 
         <div class="ag-courses-item_title">
@@ -112,7 +112,7 @@
 
     <!-- Liveness -->
     <div class="ag-courses_item">
-      <a href="#" class="ag-courses-item_link">
+      <a href="table.jsp" class="ag-courses-item_link">
         <div class="ag-courses-item_bg">
         </div>
         <div class="ag-courses-item_title">
@@ -128,7 +128,7 @@
 
     <!-- Speechiness -->
     <div class="ag-courses_item">
-      <a href="#" class="ag-courses-item_link">
+      <a href="table.jsp" class="ag-courses-item_link">
         <div class="ag-courses-item_bg"></div>
 
         <div class="ag-courses-item_title">
@@ -145,7 +145,7 @@
 
     <!-- Ricerca personale -->
     <div class="ag-courses_item">
-      <a href="#" class="ag-courses-item_link">
+      <a href="table.jsp" class="ag-courses-item_link">
         <div class="ag-courses-item_bg"></div>
 
         <div class="ag-courses-item_title">
